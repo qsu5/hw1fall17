@@ -13,19 +13,22 @@ framework, known as `Test::Unit`, the test files would be under
 IMPORTANT NOTE:
 Before starting this assignment you will need to install the ruby rspec gem in you cloud9
 environment.  You can to this by entering the following command on the terminal:
+
 `gem install rspec`
 
 The starter code for the assignment is in `lib/ruby_intro.rb`. When you are done, you can
 submit this single file to the ICON HW1 dropbox as follows:
 1) in the Workspace menu along the left side of your Cloud9 window, right click on the
- lib/ruby_intro.rb file and select "download".  This will download the file from Cloud9
+ lib/ruby_intro.rb file and select "Download".  This will download the file from Cloud9
  to the "Downloads" folder on your local computer.
 2) Submit the downloaded file to the ICON HW1 dropbox.  
 
 The files`spec/part[123]_spec.rb` contain RSpec tests for each of the three
 parts.  For example, to test your answers to Part 1, use the command:
+
  `rspec spec/part1_spec.rb`
-The command `rspec` with no arguments runs the tests in all
+
+The command `rspec` with no arguments runs all of the tests in
 the files `spec/*_spec.rb`.
 
 * The line numbers in the RSpec error report will
@@ -39,11 +42,17 @@ tests are automatically re-run, so you don't have to run them manually.
 As we'll see later, this is the first step to TDD or test-driven
 development: write the tests before you write the code, watch the test
 fail, fill in the code and save the code file, then watch the test pass!
-Before running autotest, you must first download some gems as follows:
+Before running `autotest`, you must first download some gems as follows:
+
 `gem install rspec-autotest`
 
 `gem install autotest-standalone`
 
+Note: You will need to run `autotest` in a separate terminal window. To
+terminate autotest, enter CTRL-C twice in rapic succession.
+
+Here are the specifications for the functions you will need to implement
+for this assignment:
 
 # 1. Arrays, Hashes, and Enumerables
 
