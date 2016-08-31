@@ -1,10 +1,8 @@
-HW1 Fall 2015, Due Friday, Sept. 11 by 11:59 p.m.
+HW1 Fall 2016, Due Wed., Sept. 7 by 11:59 p.m.
 =============
 
 This 3-part homework provides some basic practice in Ruby as well as
 accustomizing you to testing as a regular part of your workflow.
-Although this assignment is not due until Friday, Sept. 11, another
-assignment (HW2) will be posted on Wed. Sept. 9.
 
 The code provided here follows a fairly standard Ruby convention: program
 files are stored in `lib/` and the test files are stored in `spec/`.
@@ -12,11 +10,16 @@ files are stored in `lib/` and the test files are stored in `spec/`.
 framework, known as `Test::Unit`, the test files would be under
 `test/`.)
 
-The "starter code" for this assignment is in `lib/ruby_intro.rb`; when you're all done, you
-can submit this single file to the ICON HW1 dropbox as follows:
+IMPORTANT NOTE:
+Before starting this assignment you will need to install the ruby rspec gem in you cloud9
+environment.  You can to this by entering the following command on the terminal:
+`gem install rspec`
+
+The starter code for the assignment is in `lib/ruby_intro.rb`. When you are done, you can
+submit this single file to the ICON HW1 dropbox as follows:
 1) in the Workspace menu along the left side of your Cloud9 window, right click on the
  lib/ruby_intro.rb file and select "download".  This will download the file from Cloud9
- to your local computer.
+ to the "Downloads" folder on your local computer.
 2) Submit the downloaded file to the ICON HW1 dropbox.  
 
 The files`spec/part[123]_spec.rb` contain RSpec tests for each of the three
@@ -36,11 +39,14 @@ tests are automatically re-run, so you don't have to run them manually.
 As we'll see later, this is the first step to TDD or test-driven
 development: write the tests before you write the code, watch the test
 fail, fill in the code and save the code file, then watch the test pass!
+Before running autotest, you must first download some gems as follows:
+`gem install rspec-autotest`
+`gem install autotest-standalone`
 
 
 # 1. Arrays, Hashes, and Enumerables
 
-Check the [Ruby 2.x documentation](http://ruby-doc.org) on `Array`,
+Check the [Ruby 2.3.0 documentation](http://ruby-doc.org) on `Array`,
 `Hash` and `Enumerable` as they could help tremendously with these
 exercises. :-) 
 
