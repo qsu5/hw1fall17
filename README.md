@@ -49,7 +49,7 @@ Before running `autotest`, you must first download some gems as follows:
 `gem install autotest-standalone`
 
 Note: You will need to run `autotest` in a separate terminal window. To
-terminate autotest, enter CTRL-C twice in rapic succession.
+terminate autotest, enter CTRL-C twice in rapid succession.
 
 Here are the specifications for the functions you will need to implement
 for this assignment:
