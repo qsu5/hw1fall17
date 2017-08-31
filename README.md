@@ -1,4 +1,4 @@
-HW1 Fall 2016, Due Wed., Sept. 7 by 11:59 p.m.
+HW1 Fall 2017, Due Fri., Sept. 8 by 11:59 p.m.
 =============
 
 This 3-part homework provides some basic practice in Ruby as well as
